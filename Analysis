@@ -1,0 +1,154 @@
+QUESTION 1:
+**** BENCHMARKFORAUTOCOMPLETE DATA ****
+
+"data/threeletterwords.txt":
+
+    init time: 0.01916	for BruteAutocomplete
+    init time: 0.09168	for BinarySearchAutocomplete
+    init time: 0.4394	for HashListAutocomplete
+    init time: 0.01206	for SlowBruteAutocomplete
+    search	size	#match	BruteAutoc	BinarySear	HashListAu	SlowBruteA
+        17576	50	0.00541327	0.01820263	0.00074227	0.06245946
+        17576	50	0.00097572	0.00330186	0.00000929	0.02519837
+    a	676	50	0.00064470	0.00039750	0.00000955	0.00217973
+    a	676	50	0.00060603	0.00032142	0.00000754	0.00182747
+    b	676	50	0.00104395	0.00034154	0.00000842	0.00106077
+    c	676	50	0.00057792	0.00030930	0.00000860	0.00102208
+    g	676	50	0.00252318	0.00030003	0.00000760	0.00083643
+    ga	26	50	0.00076313	0.00008177	0.00000848	0.00041351
+    go	26	50	0.00045821	0.00008685	0.00000787	0.00040756
+    gu	26	50	0.00046795	0.00007333	0.00000877	0.00040704
+    x	676	50	0.00077316	0.00032041	0.00000849	0.00107976
+    y	676	50	0.00059945	0.00028809	0.00000880	0.00090030
+    z	676	50	0.00062174	0.00030980	0.00000716	0.00082936
+    aa	26	50	0.00047073	0.00007496	0.00000772	0.00041541
+    az	26	50	0.00046714	0.00008648	0.00000848	0.00040363
+    za	26	50	0.00064684	0.00014173	0.00002586	0.00083267
+    zz	26	50	0.00102410	0.00015533	0.00002262	0.00085422
+    zqzqwwx	0	50	0.00056373	0.00006700	0.00000754	0.00047060
+    size in bytes=246064	 for BruteAutocomplete
+    size in bytes=246064	 for BinarySearchAutocomplete
+    size in bytes=1092468	 for HashListAutocomplete
+    size in bytes=246064	 for SlowBruteAutocomplete
+
+    Process finished with exit code 0
+
+"data/fourletterwords.txt":
+
+    init time: 0.1479	for BruteAutocomplete
+    init time: 0.09076	for BinarySearchAutocomplete
+    init time: 1.546	for HashListAutocomplete
+    init time: 0.1008	for SlowBruteAutocomplete
+    search	size	#match	BruteAutoc	BinarySear	HashListAu	SlowBruteA
+        456976	50	0.01106292	0.04612784	0.00033420	0.65949804
+        456976	50	0.00706177	0.00928811	0.00001368	0.45941844
+    a	17576	50	0.00716189	0.00039760	0.00000652	0.01787427
+    a	17576	50	0.00684425	0.00036238	0.00000825	0.02212622
+    b	17576	50	0.00482191	0.00044027	0.00001404	0.01095862
+    c	17576	50	0.00994401	0.00049963	0.00000956	0.01464427
+    g	17576	50	0.01400952	0.00063720	0.00001472	0.03761619
+    ga	676	50	0.00412348	0.00010792	0.00000655	0.00451332
+    go	676	50	0.01058550	0.00018026	0.00003531	0.01432743
+    gu	676	50	0.00434172	0.00008332	0.00000643	0.00445494
+    x	17576	50	0.00426671	0.00031664	0.00000830	0.01171295
+    y	17576	50	0.00445691	0.00028033	0.00000851	0.01173284
+    z	17576	50	0.00431679	0.00025095	0.00000741	0.00982852
+    aa	676	50	0.00549720	0.00013595	0.00000896	0.00438102
+    az	676	50	0.00486683	0.00009043	0.00000730	0.00507392
+    za	676	50	0.00702861	0.00007901	0.00000782	0.00639697
+    zz	676	50	0.00427147	0.00007109	0.00000680	0.00432108
+    zqzqwwx	0	50	0.00644833	0.00008187	0.00000304	0.01011053
+    size in bytes=7311616	 for BruteAutocomplete
+    size in bytes=7311616	 for BinarySearchAutocomplete
+    size in bytes=40322100	 for HashListAutocomplete
+    size in bytes=7311616	 for SlowBruteAutocomplete
+
+    Process finished with exit code 0
+
+"data/alexa.txt":
+
+    init time: 0.6421	for BruteAutocomplete
+    init time: 2.230	for BinarySearchAutocomplete
+    init time: 19.97	for HashListAutocomplete
+    init time: 0.7149	for SlowBruteAutocomplete
+    search	size	#match	BruteAutoc	BinarySear	HashListAu	SlowBruteA
+        1000000	50	0.03771807	0.13154623	0.00063877	0.09884052
+        1000000	50	0.02480731	0.13600685	0.00001582	0.11586705
+    a	69464	50	0.02245460	0.00520016	0.00001080	0.12254871
+    a	69464	50	0.01856277	0.00557369	0.00001214	0.03032076
+    b	56037	50	0.01924841	0.00453625	0.00001282	0.02938739
+    c	65842	50	0.01803064	0.00511652	0.00001294	0.03337383
+    g	37792	50	0.02001746	0.00355675	0.00001276	0.02826599
+    ga	6664	50	0.01937894	0.00074957	0.00000944	0.02385718
+    go	6953	50	0.02498312	0.00176908	0.00001577	0.03365210
+    gu	2782	50	0.02725428	0.00060778	0.00001287	0.06298320
+    x	6717	50	0.03343899	0.00077868	0.00001617	0.03862641
+    y	16765	50	0.01906884	0.00163340	0.00001084	0.02888760
+    z	8780	50	0.02117431	0.00164867	0.00001273	0.02930609
+    aa	718	50	0.01948969	0.00020822	0.00001114	0.02657496
+    az	889	50	0.02568802	0.00018351	0.00000887	0.02658725
+    za	1718	50	0.01928988	0.00027321	0.00000965	0.02446826
+    zz	162	50	0.01844042	0.00009894	0.00000850	0.02297084
+    zqzqwwx	0	50	0.02199719	0.00011014	0.00000386	0.02399437
+    size in bytes=38204230	 for BruteAutocomplete
+    size in bytes=38204230	 for BinarySearchAutocomplete
+    size in bytes=475893648	 for HashListAutocomplete
+    size in bytes=38204230	 for SlowBruteAutocomplete
+
+    Process finished with exit code 0
+
+
+QUESTION 2:
+
+"data/alexa.txt" with #matches = 10000:
+    init time: 0.4650	for BruteAutocomplete
+    init time: 2.181	for BinarySearchAutocomplete
+    init time: 16.13	for HashListAutocomplete
+    init time: 0.8958	for SlowBruteAutocomplete
+    search	size	#match	BruteAutoc	BinarySear	HashListAu	SlowBruteA
+    	1000000	10000	0.03501414	0.17862306	0.00049854	0.07479159
+    	1000000	10000	0.02335141	0.12375989	0.00001784	0.07430903
+    a	69464	10000	0.02077177	0.02406637	0.00001151	0.03060555
+    a	69464	10000	0.01998378	0.02381620	0.00001362	0.02228005
+    b	56037	10000	0.02868071	0.02294730	0.00001564	0.01990717
+    c	65842	10000	0.02329078	0.02526889	0.00001188	0.01925869
+    g	37792	10000	0.02078092	0.02275736	0.00001233	0.01741371
+    ga	6664	10000	0.01848423	0.00446454	0.00001040	0.01608294
+    go	6953	10000	0.06668223	0.04914211	0.00001657	0.04793873
+    gu	2782	10000	0.01754286	0.00208571	0.00001409	0.01966935
+    x	6717	10000	0.02268952	0.00489277	0.00001325	0.01564385
+    y	16765	10000	0.02099476	0.01318756	0.00001300	0.01644120
+    z	8780	10000	0.02427350	0.00652461	0.00002373	0.01676432
+    aa	718	10000	0.01498473	0.00039590	0.00000873	0.01603921
+    az	889	10000	0.01543837	0.00055569	0.00000855	0.01647865
+    za	1718	10000	0.01405915	0.00105802	0.00000898	0.01552608
+    zz	162	10000	0.01646427	0.00010585	0.00000767	0.02161738
+    zqzqwwx	0	10000	0.01264617	0.00008909	0.00000332	0.01936450
+    size in bytes=38204230	 for BruteAutocomplete
+    size in bytes=38204230	 for BinarySearchAutocomplete
+    size in bytes=475893648	 for HashListAutocomplete
+    size in bytes=38204230	 for SlowBruteAutocomplete
+
+    Process finished with exit code 0
+
+The number of matches increased by 200 times. However, looking at the runtimes for each type of Autocomplete, the number of matches has virtually no effect
+on the runtime for most methods. The BinarySearchAutocomplete method seemed to be affected the most, but only marginally over BruteAutocomplete and HashListAutocomplete.
+This is most likely due to the fact that these methods relied on a PriorityQueue, whose size depended on the number of matches. Some runs of
+SlowBruteAutocomplete seemed to speed up with more matches! This is most likely due to the fact that the rate-determining step for SlowBruteAutocomplete
+is in putting all the matched strings in order, which takes the same time regardless of the number of matches that the method actually wants to return.
+
+
+QUESTION 3:
+The last for-loop in BruteAutocomplete.topMatches uses a LinkedList instead of an ArrayList because it is much easier to add something to the beginning of a LinkedList using
+the .addFirst() method, which is implemented in the for-loop. If it were to use an ArrayList, it would not be as efficient because every other element in the list
+would have to shift in order to make room to add something to the beginning of the list. The PriorityQueue wants to have everything sorted by their priority (which in this case,
+is weight). Therefore, it must use Comparator.comparing(Term::getWeight) to compare the weights of the Terms so it can decide if it wants to add the Term to the queue
+(and get rid of the element with the lowest weight. It will end up with the heaviest k matches because every time it analyzes a new Term, it compares the
+new Term's weight with those that it has seen thus far, and adds it into the top k matches if necessary.
+
+
+QUESTION 4:
+HashListAutocomplete uses more memory than the other Autocomplete implementations because at the beginning, it fills up the HashMap in HashListAutocomplete.initialize().
+While the other Autocomplete implementations only store the Terms in an ArrayList and sort them, HashListAutocomplete must organize all of the values and keys and possible
+connections between them. It stores a lot of data because it covers every scenario, because search keywords ranging from having very few characters to having MAX_PREFIX characters.
+However, once it has organized everything it's very easy to find a list of value based on its key.
